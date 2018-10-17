@@ -1,0 +1,770 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2CF84ACA-4D77-4D32-BAE0-D17E088ABABA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CourseAssignment</RootNamespace>
+    <AssemblyName>CourseAssignment</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\IdentityConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AcademicPlansController.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\api\AcademicPlansController.cs" />
+    <Compile Include="Controllers\api\BatchesController.cs" />
+    <Compile Include="Controllers\api\SubjectsController.cs" />
+    <Compile Include="Controllers\api\TeachersController.cs" />
+    <Compile Include="Controllers\BatchesController.cs" />
+    <Compile Include="Controllers\ClassTimesController.cs" />
+    <Compile Include="Controllers\CoOrdinatorController.cs" />
+    <Compile Include="Controllers\CourseScheduleInfoestempController.cs" />
+    <Compile Include="Controllers\CoursesController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\RoutineHistoryController.cs" />
+    <Compile Include="Controllers\SubjectsController.cs" />
+    <Compile Include="Controllers\TeachersController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803200535294_initialModel.cs" />
+    <Compile Include="Migrations\201803200535294_initialModel.Designer.cs">
+      <DependentUpon>201803200535294_initialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804011847476_newModel.cs" />
+    <Compile Include="Migrations\201804011847476_newModel.Designer.cs">
+      <DependentUpon>201804011847476_newModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804020659155_AddedTeacher.cs" />
+    <Compile Include="Migrations\201804020659155_AddedTeacher.Designer.cs">
+      <DependentUpon>201804020659155_AddedTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804020705359_AddednewteacherProperty.cs" />
+    <Compile Include="Migrations\201804020705359_AddednewteacherProperty.Designer.cs">
+      <DependentUpon>201804020705359_AddednewteacherProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804020708256_AddednewteacherProperty1.cs" />
+    <Compile Include="Migrations\201804020708256_AddednewteacherProperty1.Designer.cs">
+      <DependentUpon>201804020708256_AddednewteacherProperty1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804021148554_addedSubjectTable.cs" />
+    <Compile Include="Migrations\201804021148554_addedSubjectTable.Designer.cs">
+      <DependentUpon>201804021148554_addedSubjectTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804021151064_populateSemesterTable.cs" />
+    <Compile Include="Migrations\201804021151064_populateSemesterTable.Designer.cs">
+      <DependentUpon>201804021151064_populateSemesterTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804021157064_PopulateCategoryTable.cs" />
+    <Compile Include="Migrations\201804021157064_PopulateCategoryTable.Designer.cs">
+      <DependentUpon>201804021157064_PopulateCategoryTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804021201278_AddedShiftTable.cs" />
+    <Compile Include="Migrations\201804021201278_AddedShiftTable.Designer.cs">
+      <DependentUpon>201804021201278_AddedShiftTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804021741364_UpdatedCourseTable.cs" />
+    <Compile Include="Migrations\201804021741364_UpdatedCourseTable.Designer.cs">
+      <DependentUpon>201804021741364_UpdatedCourseTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804021818128_RemoveName.cs" />
+    <Compile Include="Migrations\201804021818128_RemoveName.Designer.cs">
+      <DependentUpon>201804021818128_RemoveName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804022030392_ChangetoDateTime.cs" />
+    <Compile Include="Migrations\201804022030392_ChangetoDateTime.Designer.cs">
+      <DependentUpon>201804022030392_ChangetoDateTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804061927064_updatedTeacherTable.cs" />
+    <Compile Include="Migrations\201804061927064_updatedTeacherTable.Designer.cs">
+      <DependentUpon>201804061927064_updatedTeacherTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804062032571_updatedSubjectTable.cs" />
+    <Compile Include="Migrations\201804062032571_updatedSubjectTable.Designer.cs">
+      <DependentUpon>201804062032571_updatedSubjectTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804071344576_addedAcademicPlan.cs" />
+    <Compile Include="Migrations\201804071344576_addedAcademicPlan.Designer.cs">
+      <DependentUpon>201804071344576_addedAcademicPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804071351582_addedAcademicPlan1.cs" />
+    <Compile Include="Migrations\201804071351582_addedAcademicPlan1.Designer.cs">
+      <DependentUpon>201804071351582_addedAcademicPlan1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804071403276_addedAcademicPlan2.cs" />
+    <Compile Include="Migrations\201804071403276_addedAcademicPlan2.Designer.cs">
+      <DependentUpon>201804071403276_addedAcademicPlan2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804072042277_addedClassTimeTable.cs" />
+    <Compile Include="Migrations\201804072042277_addedClassTimeTable.Designer.cs">
+      <DependentUpon>201804072042277_addedClassTimeTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804081822307_UpdatedAgainCourseTable.cs" />
+    <Compile Include="Migrations\201804081822307_UpdatedAgainCourseTable.Designer.cs">
+      <DependentUpon>201804081822307_UpdatedAgainCourseTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804081925529_NewUpdateTeacherTable.cs" />
+    <Compile Include="Migrations\201804081925529_NewUpdateTeacherTable.Designer.cs">
+      <DependentUpon>201804081925529_NewUpdateTeacherTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804111826174_CourseTableRemodified.cs" />
+    <Compile Include="Migrations\201804111826174_CourseTableRemodified.Designer.cs">
+      <DependentUpon>201804111826174_CourseTableRemodified.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804121826013_addedNewProperties.cs" />
+    <Compile Include="Migrations\201804121826013_addedNewProperties.Designer.cs">
+      <DependentUpon>201804121826013_addedNewProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804121850392_remodifiedTable.cs" />
+    <Compile Include="Migrations\201804121850392_remodifiedTable.Designer.cs">
+      <DependentUpon>201804121850392_remodifiedTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804122004106_RemoveSubjects.cs" />
+    <Compile Include="Migrations\201804122004106_RemoveSubjects.Designer.cs">
+      <DependentUpon>201804122004106_RemoveSubjects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804131951023_yetAnoderMigration.cs" />
+    <Compile Include="Migrations\201804131951023_yetAnoderMigration.Designer.cs">
+      <DependentUpon>201804131951023_yetAnoderMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804151254447_addedRoutineHistory.cs" />
+    <Compile Include="Migrations\201804151254447_addedRoutineHistory.Designer.cs">
+      <DependentUpon>201804151254447_addedRoutineHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804151855408_updateoutineHistoryTable.cs" />
+    <Compile Include="Migrations\201804151855408_updateoutineHistoryTable.Designer.cs">
+      <DependentUpon>201804151855408_updateoutineHistoryTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804161758384_addeddaysfield.cs" />
+    <Compile Include="Migrations\201804161758384_addeddaysfield.Designer.cs">
+      <DependentUpon>201804161758384_addeddaysfield.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804161850418_addedCourseTakenTable.cs" />
+    <Compile Include="Migrations\201804161850418_addedCourseTakenTable.Designer.cs">
+      <DependentUpon>201804161850418_addedCourseTakenTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804211922216_addedCoordinatorIdProperty.cs" />
+    <Compile Include="Migrations\201804211922216_addedCoordinatorIdProperty.Designer.cs">
+      <DependentUpon>201804211922216_addedCoordinatorIdProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804221933336_addedRoomTable.cs" />
+    <Compile Include="Migrations\201804221933336_addedRoomTable.Designer.cs">
+      <DependentUpon>201804221933336_addedRoomTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804221949573_newUpdates.cs" />
+    <Compile Include="Migrations\201804221949573_newUpdates.Designer.cs">
+      <DependentUpon>201804221949573_newUpdates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804281902342_changedRoutineHistoryTable.cs" />
+    <Compile Include="Migrations\201804281902342_changedRoutineHistoryTable.Designer.cs">
+      <DependentUpon>201804281902342_changedRoutineHistoryTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804290358474_regeneratedTeacherTable.cs" />
+    <Compile Include="Migrations\201804290358474_regeneratedTeacherTable.Designer.cs">
+      <DependentUpon>201804290358474_regeneratedTeacherTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805060328036_addedFridayClassTimes.cs" />
+    <Compile Include="Migrations\201805060328036_addedFridayClassTimes.Designer.cs">
+      <DependentUpon>201805060328036_addedFridayClassTimes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805060338322_UpdatedCourseTable45.cs" />
+    <Compile Include="Migrations\201805060338322_UpdatedCourseTable45.Designer.cs">
+      <DependentUpon>201805060338322_UpdatedCourseTable45.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805060534560_AddedNewPropertytoRoutineHistory.cs" />
+    <Compile Include="Migrations\201805060534560_AddedNewPropertytoRoutineHistory.Designer.cs">
+      <DependentUpon>201805060534560_AddedNewPropertytoRoutineHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805061511013_AddedTempSelectedCourse.cs" />
+    <Compile Include="Migrations\201805061511013_AddedTempSelectedCourse.Designer.cs">
+      <DependentUpon>201805061511013_AddedTempSelectedCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805090927330_addedCoursescheuleInfo.cs" />
+    <Compile Include="Migrations\201805090927330_addedCoursescheuleInfo.Designer.cs">
+      <DependentUpon>201805090927330_addedCoursescheuleInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805090957523_addedNewPropertytoCourseSchedule.cs" />
+    <Compile Include="Migrations\201805090957523_addedNewPropertytoCourseSchedule.Designer.cs">
+      <DependentUpon>201805090957523_addedNewPropertytoCourseSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805100813537_AddedNewTabletoSaveCourseTeacher.cs" />
+    <Compile Include="Migrations\201805100813537_AddedNewTabletoSaveCourseTeacher.Designer.cs">
+      <DependentUpon>201805100813537_AddedNewTabletoSaveCourseTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805100832253_ReformPreviouslyCreatedTable.cs" />
+    <Compile Include="Migrations\201805100832253_ReformPreviouslyCreatedTable.Designer.cs">
+      <DependentUpon>201805100832253_ReformPreviouslyCreatedTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805141602105_AddedSubjectForCOurseTable.cs" />
+    <Compile Include="Migrations\201805141602105_AddedSubjectForCOurseTable.Designer.cs">
+      <DependentUpon>201805141602105_AddedSubjectForCOurseTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805150339463_addedYearProperty.cs" />
+    <Compile Include="Migrations\201805150339463_addedYearProperty.Designer.cs">
+      <DependentUpon>201805150339463_addedYearProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\AcademicPlan.cs" />
+    <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\BasicCourseInfo.cs" />
+    <Compile Include="Models\Batch.cs" />
+    <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\ClassTime.cs" />
+    <Compile Include="Models\Course.cs" />
+    <Compile Include="Models\CourseScheduleInfo.cs" />
+    <Compile Include="Models\CourseTaken.cs" />
+    <Compile Include="Models\FridayClassTimes.cs" />
+    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\RoutineHistory.cs" />
+    <Compile Include="Models\SelectedCoursebyTeacher.cs" />
+    <Compile Include="Models\Semester.cs" />
+    <Compile Include="Models\Shift.cs" />
+    <Compile Include="Models\Subject.cs" />
+    <Compile Include="Models\SubjectForCOurse.cs" />
+    <Compile Include="Models\SubjectSelectedByTeacherInCourse.cs" />
+    <Compile Include="Models\Teacher.cs" />
+    <Compile Include="Models\TempSelectCourse.cs" />
+    <Compile Include="Models\WeekDay.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\ChooseCourseViewModel.cs" />
+    <Compile Include="ViewModels\ClassTimesViewModel.cs" />
+    <Compile Include="ViewModels\CourseSelectedbyteacherViewModel.cs" />
+    <Compile Include="ViewModels\CourseViewModel.cs" />
+    <Compile Include="Models\Room.cs" />
+    <Compile Include="ViewModels\DaysViewModel.cs" />
+    <Compile Include="ViewModels\DayTimeSelectedViewModel.cs" />
+    <Compile Include="ViewModels\RoutineHistoryViewModel.cs" />
+    <Compile Include="ViewModels\RoutineViewModel.cs" />
+    <Compile Include="ViewModels\SeasonViewModel.cs" />
+    <Compile Include="ViewModels\SelectCourseViewModel.cs" />
+    <Compile Include="ViewModels\SemesterRoutineViewModel.cs" />
+    <Compile Include="ViewModels\Session.cs" />
+    <Compile Include="ViewModels\TeacherViewModel.cs" />
+    <Compile Include="ViewModels\TempChooseCourseViewModel.cs" />
+    <Compile Include="ViewModels\YearRoutineViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bracket.css" />
+    <Content Include="Content\Coosen\chosen-sprite.png" />
+    <Content Include="Content\Coosen\chosen.min.css" />
+    <Content Include="Content\themes\base\accordion.css" />
+    <Content Include="Content\themes\base\all.css" />
+    <Content Include="Content\themes\base\autocomplete.css" />
+    <Content Include="Content\themes\base\base.css" />
+    <Content Include="Content\themes\base\button.css" />
+    <Content Include="Content\themes\base\core.css" />
+    <Content Include="Content\themes\base\datepicker.css" />
+    <Content Include="Content\themes\base\dialog.css" />
+    <Content Include="Content\themes\base\draggable.css" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_444444_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_555555_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_777620_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_777777_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\menu.css" />
+    <Content Include="Content\themes\base\progressbar.css" />
+    <Content Include="Content\themes\base\resizable.css" />
+    <Content Include="Content\themes\base\selectable.css" />
+    <Content Include="Content\themes\base\selectmenu.css" />
+    <Content Include="Content\themes\base\slider.css" />
+    <Content Include="Content\themes\base\sortable.css" />
+    <Content Include="Content\themes\base\spinner.css" />
+    <Content Include="Content\themes\base\tabs.css" />
+    <Content Include="Content\themes\base\theme.css" />
+    <Content Include="Content\themes\base\tooltip.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Rotativa\help-wkhtmltoimage.txt" />
+    <Content Include="Rotativa\help-wkhtmltopdf.txt" />
+    <Content Include="Rotativa\wkhtmltoimage.exe" />
+    <Content Include="Rotativa\wkhtmltopdf.exe" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="App_Browsers\qt.browser" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\chosen.jquery.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-1.12.4.min.map" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <None Include="Scripts\jquery-1.12.4.intellisense.js" />
+    <Content Include="Scripts\jquery-1.12.4.js" />
+    <Content Include="Scripts\jquery-1.12.4.min.js" />
+    <Content Include="Scripts\jquery-ui-1.12.1.js" />
+    <Content Include="Scripts\jquery-ui-1.12.1.min.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\login\bootstrap.js" />
+    <Content Include="Scripts\login\jquery.js" />
+    <Content Include="Scripts\login\popper.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\printThis.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Account\ConfirmEmail.cshtml" />
+    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
+    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
+    <Content Include="Views\Account\ForgotPassword.cshtml" />
+    <Content Include="Views\Account\ForgotPasswordConfirmation.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Account\ResetPassword.cshtml" />
+    <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
+    <Content Include="Views\Account\SendCode.cshtml" />
+    <Content Include="Views\Account\VerifyCode.cshtml" />
+    <Content Include="Views\Manage\AddPhoneNumber.cshtml" />
+    <Content Include="Views\Manage\ChangePassword.cshtml" />
+    <Content Include="Views\Manage\Index.cshtml" />
+    <Content Include="Views\Manage\ManageLogins.cshtml" />
+    <Content Include="Views\Manage\SetPassword.cshtml" />
+    <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
+    <Content Include="Views\Shared\Lockout.cshtml" />
+    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Batches\Create.cshtml" />
+    <Content Include="Views\Batches\Edit.cshtml" />
+    <Content Include="Views\Batches\Index.cshtml" />
+    <Content Include="Views\Subjects\Create.cshtml" />
+    <Content Include="Views\Subjects\Delete.cshtml" />
+    <Content Include="Views\Subjects\Details.cshtml" />
+    <Content Include="Views\Subjects\Edit.cshtml" />
+    <Content Include="Views\Subjects\Index.cshtml" />
+    <Content Include="Views\CoOrdinator\Index.cshtml" />
+    <Content Include="Views\Shared\_Layout-login.cshtml" />
+    <Content Include="Views\Teachers\Create.cshtml" />
+    <Content Include="Views\Teachers\Delete.cshtml" />
+    <Content Include="Views\Teachers\Details.cshtml" />
+    <Content Include="Views\Teachers\Edit.cshtml" />
+    <Content Include="Views\Teachers\Index.cshtml" />
+    <Content Include="Views\AcademicPlans\Create.cshtml" />
+    <Content Include="Views\AcademicPlans\Edit.cshtml" />
+    <Content Include="Views\AcademicPlans\Index.cshtml" />
+    <Content Include="Views\ClassTimes\Create.cshtml" />
+    <Content Include="Views\ClassTimes\Delete.cshtml" />
+    <Content Include="Views\ClassTimes\Details.cshtml" />
+    <Content Include="Views\ClassTimes\Edit.cshtml" />
+    <Content Include="Views\ClassTimes\Index.cshtml" />
+    <Content Include="Views\User\TakeCourse.cshtml" />
+    <Content Include="Views\Courses\Create.cshtml" />
+    <Content Include="Views\Courses\Delete.cshtml" />
+    <Content Include="Views\Courses\Details.cshtml" />
+    <Content Include="Views\Courses\Edit.cshtml" />
+    <Content Include="Views\Courses\Index.cshtml" />
+    <Content Include="Views\Courses\Routine.cshtml" />
+    <Content Include="Views\RoutineHistory\Index.cshtml" />
+    <Content Include="Views\Teachers\SelectCourse.cshtml" />
+    <Content Include="Views\Teachers\ChooseCourse.cshtml" />
+    <Content Include="Views\Teachers\ChooseCourse - Copy.cshtml" />
+    <Content Include="Views\CourseScheduleInfoestemp\Create.cshtml" />
+    <Content Include="Views\CourseScheduleInfoestemp\Delete.cshtml" />
+    <Content Include="Views\CourseScheduleInfoestemp\Details.cshtml" />
+    <Content Include="Views\CourseScheduleInfoestemp\Edit.cshtml" />
+    <Content Include="Views\CourseScheduleInfoestemp\Index.cshtml" />
+    <Content Include="Views\Courses\GetRoutine.cshtml" />
+    <Content Include="Views\RoutineHistory\viewRoutine.cshtml" />
+    <Content Include="Views\RoutineHistory\FinalRoutine.cshtml" />
+    <Content Include="Views\Teachers\TeacherProfile.cshtml" />
+    <Content Include="Views\Teachers\notfoundpage.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="DTOs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201803200535294_initialModel.resx">
+      <DependentUpon>201803200535294_initialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804011847476_newModel.resx">
+      <DependentUpon>201804011847476_newModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804020659155_AddedTeacher.resx">
+      <DependentUpon>201804020659155_AddedTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804020705359_AddednewteacherProperty.resx">
+      <DependentUpon>201804020705359_AddednewteacherProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804020708256_AddednewteacherProperty1.resx">
+      <DependentUpon>201804020708256_AddednewteacherProperty1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804021148554_addedSubjectTable.resx">
+      <DependentUpon>201804021148554_addedSubjectTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804021151064_populateSemesterTable.resx">
+      <DependentUpon>201804021151064_populateSemesterTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804021157064_PopulateCategoryTable.resx">
+      <DependentUpon>201804021157064_PopulateCategoryTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804021201278_AddedShiftTable.resx">
+      <DependentUpon>201804021201278_AddedShiftTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804021741364_UpdatedCourseTable.resx">
+      <DependentUpon>201804021741364_UpdatedCourseTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804021818128_RemoveName.resx">
+      <DependentUpon>201804021818128_RemoveName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804022030392_ChangetoDateTime.resx">
+      <DependentUpon>201804022030392_ChangetoDateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804061927064_updatedTeacherTable.resx">
+      <DependentUpon>201804061927064_updatedTeacherTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804062032571_updatedSubjectTable.resx">
+      <DependentUpon>201804062032571_updatedSubjectTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804071344576_addedAcademicPlan.resx">
+      <DependentUpon>201804071344576_addedAcademicPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804071351582_addedAcademicPlan1.resx">
+      <DependentUpon>201804071351582_addedAcademicPlan1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804071403276_addedAcademicPlan2.resx">
+      <DependentUpon>201804071403276_addedAcademicPlan2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804072042277_addedClassTimeTable.resx">
+      <DependentUpon>201804072042277_addedClassTimeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804081822307_UpdatedAgainCourseTable.resx">
+      <DependentUpon>201804081822307_UpdatedAgainCourseTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804081925529_NewUpdateTeacherTable.resx">
+      <DependentUpon>201804081925529_NewUpdateTeacherTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804111826174_CourseTableRemodified.resx">
+      <DependentUpon>201804111826174_CourseTableRemodified.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804121826013_addedNewProperties.resx">
+      <DependentUpon>201804121826013_addedNewProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804121850392_remodifiedTable.resx">
+      <DependentUpon>201804121850392_remodifiedTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804122004106_RemoveSubjects.resx">
+      <DependentUpon>201804122004106_RemoveSubjects.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804131951023_yetAnoderMigration.resx">
+      <DependentUpon>201804131951023_yetAnoderMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804151254447_addedRoutineHistory.resx">
+      <DependentUpon>201804151254447_addedRoutineHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804151855408_updateoutineHistoryTable.resx">
+      <DependentUpon>201804151855408_updateoutineHistoryTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804161758384_addeddaysfield.resx">
+      <DependentUpon>201804161758384_addeddaysfield.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804161850418_addedCourseTakenTable.resx">
+      <DependentUpon>201804161850418_addedCourseTakenTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804211922216_addedCoordinatorIdProperty.resx">
+      <DependentUpon>201804211922216_addedCoordinatorIdProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804221933336_addedRoomTable.resx">
+      <DependentUpon>201804221933336_addedRoomTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804221949573_newUpdates.resx">
+      <DependentUpon>201804221949573_newUpdates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804281902342_changedRoutineHistoryTable.resx">
+      <DependentUpon>201804281902342_changedRoutineHistoryTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804290358474_regeneratedTeacherTable.resx">
+      <DependentUpon>201804290358474_regeneratedTeacherTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805060328036_addedFridayClassTimes.resx">
+      <DependentUpon>201805060328036_addedFridayClassTimes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805060338322_UpdatedCourseTable45.resx">
+      <DependentUpon>201805060338322_UpdatedCourseTable45.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805060534560_AddedNewPropertytoRoutineHistory.resx">
+      <DependentUpon>201805060534560_AddedNewPropertytoRoutineHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805061511013_AddedTempSelectedCourse.resx">
+      <DependentUpon>201805061511013_AddedTempSelectedCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805090927330_addedCoursescheuleInfo.resx">
+      <DependentUpon>201805090927330_addedCoursescheuleInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805090957523_addedNewPropertytoCourseSchedule.resx">
+      <DependentUpon>201805090957523_addedNewPropertytoCourseSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805100813537_AddedNewTabletoSaveCourseTeacher.resx">
+      <DependentUpon>201805100813537_AddedNewTabletoSaveCourseTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805100832253_ReformPreviouslyCreatedTable.resx">
+      <DependentUpon>201805100832253_ReformPreviouslyCreatedTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805141602105_AddedSubjectForCOurseTable.resx">
+      <DependentUpon>201805141602105_AddedSubjectForCOurseTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805150339463_addedYearProperty.resx">
+      <DependentUpon>201805150339463_addedYearProperty.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49961</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49961/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

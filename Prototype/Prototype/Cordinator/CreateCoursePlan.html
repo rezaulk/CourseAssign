@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+ 
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+ 
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/dataTables.bootstrap.min.css">
+  <link rel="stylesheet" href="../css/AdminLTE.min.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+
+</head>
+
+<body>
+    <div class="container body-content">
+  
+<style>
+    .form-designstyle {
+        float: left;
+        margin-top: 1%;
+        margin-right: 2%;
+    }
+</style>
+
+<h2>Create A Course Plan</h2>
+
+
+    <hr />
+    
+    <div class="row">
+
+        <div class="col-md-6">
+            <div class="form-group">
+                <label class="control-label form-designstyle col-md-3">Batch</label>
+                <select class="form-control" data-val="true" data-val-number="The field BatchId must be a number." data-val-required="The BatchId field is required." id="BatchId" name="BatchId">
+					<option value="">--Select--</option>
+					<option value="2">batch1</option>
+					<option value="3">batch English</option>
+				</select>
+                <span class="field-validation-valid text-danger" data-valmsg-for="BatchId" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label form-designstyle col-md-6">Semester No</label>
+                <select class="form-control" data-val="true" data-val-number="The field Semester must be a number." data-val-required="The Semester field is required." id="SemesterId" name="SemesterId">
+				   <option value="">--Select--</option>
+               </select>
+                <span class="field-validation-valid text-danger" data-valmsg-for="SemesterId" data-valmsg-replace="true"></span>
+            </div>
+			
+			<div class="form-group">
+                <br />
+                <label class="control-label form-designstyle col-md-1">Friday</label><br/>
+                <div class="radio">
+						  <label><input type="radio" name="optradio">7.00-8.00PM</label>
+						  <label><input type="radio" name="optradio">8.00-9.00PM</label>
+						  <label><input type="radio" name="optradio">9.00-10.00PM</label>
+				</div>
+                <span class="field-validation-valid text-danger" data-valmsg-for="AllFridayClassTimes" data-valmsg-replace="true"></span></label>
+            </div>
+
+
+
+        </div>
+        <div class="col-md-6">
+
+            <div class="form-group">
+               
+                <label class="control-label form-designstyle col-md-3" >Campus</label> 
+               
+                <select class="form-control col-md-2" id="Rooms" name="Rooms">
+					<option value="">--Select--</option>
+					<option value="Dhanmondi">Dhanmondi</option>
+					<option value="Panthapath">Panthapath</option>
+				</select>
+               <span class="field-validation-valid text-danger" data-valmsg-for="Campus" data-valmsg-replace="true"></span>
+            </div>
+          
+            <div class="form-group">
+                <br /><br /><br />
+                <label class="control-label form-designstyle col-md-6" >Semester Name</label>
+                <select class="form-control" id="SessionName" name="SessionName">
+				    <option value="">--Select--</option>
+					<option value="Spring">Spring</option>
+					<option value="Summer">Summer</option>
+					<option value="Fall">Fall</option>
+					</select>
+                <span class="field-validation-valid text-danger" data-valmsg-for="SessionName" data-valmsg-replace="true"></span>
+            </div>
+          
+		   <br/>
+            <div class="form-group">
+                <label class="control-label form-designstyle col-md-3">Regular</label><br/>
+					<div class="radio">
+						  <label><input type="radio" name="optradio">7.00-8.00PM</label>
+						  <label><input type="radio" name="optradio">8.00-9.00PM</label>
+						  <label><input type="radio" name="optradio">9.00-10.00PM</label>
+					</div>
+                <span class="field-validation-valid text-danger" data-valmsg-for="AllClassTime" data-valmsg-replace="true"></span>
+            </div>
+      
+           
+            
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label class="control-label form-designstyle col-md-2">Days</label>
+                <label class="checkbox-inline"><input type="checkbox" value="">Option 1</label>
+				<label class="checkbox-inline"><input type="checkbox" value="">Option 2</label>
+				<label class="checkbox-inline"><input type="checkbox" value="">Option 3</label>
+                
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label class="control-label form-designstyle col-md-2">Rooms</label> 
+                <select class="form-control col-md-2" id="AllRooms" name="AllRooms">
+					<option value="">--Select--</option>
+					<option value="dha">dha</option>
+					<option value="pha">pha</option>
+				</select>
+                <span class="field-validation-valid text-danger" data-valmsg-for="AllRooms" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+        <br/>
+        <input type="submit" id="ClickButton" class="btn btn-info" value="Add"/>
+       
+        <div class="form-group">
+            <div class="col-md-2 saveButton" style="float:right; display:none">
+                <input type="submit" value="Create" class="btn btn-success" id="saveValue" />
+            </div>
+        </div>
+    </div>
+
+
+
+        <hr />
+        <footer>
+            <p>&copy; 2018 - All Right Reserved</p>
+        </footer>
+    </div>
+
+    <script src="/Scripts/jquery-1.12.4.js"></script>
+
+    <script src="/Scripts/chosen.jquery.min.js"></script>
+    <script src="/Scripts/bootstrap.js"></script>
+<script src="/Scripts/respond.js"></script>
+
+
+    
+
+    <script>
+
+        $(document).ready(function () {
+
+            viewModel = {
+                AllWeekDay: [],
+                AllClassTime: [],
+                AllRooms: [],
+                AllFridayClassTimes : [],
+                Campus: "",
+                SessionName: "",
+                BatchId: 0,
+                SemesterId: 0
+
+            };
+
+            $("#normalDropDown8").chosen();
+
+            
+
+
+            $("#ClickButton").click(function () {
+                
+                var day = $("#AllWeekDay").val();
+                var time = $("#AllClassTime").val();
+                var room = $("#AllRooms").val();
+
+                if (jQuery.inArray(day, viewModel.AllWeekDay) !== -1 && jQuery.inArray(time, viewModel.AllClassTime) !== -1 && jQuery.inArray(room, viewModel.AllRooms) !== -1) {
+                    alert("Already Exists");
+                }
+                else {
+                    viewModel.AllWeekDay.push(day);
+                    viewModel.AllClassTime.push(time);
+                    viewModel.AllRooms.push(room);
+
+                    $(".appendTable").append("<tr><td>" + day + "</td><td>" + time + "</td><td>" + room + "</td></tr>");
+                    $(".saveButton").css("display", "block");
+                }
+
+
+                
+
+            });
+
+            $("#saveValue").click(function () {
+                var tempData = $("#normalDropDown8").val();
+                viewModel.AllFridayClassTimes = tempData;
+                viewModel.BatchId = $("#BatchId").val();
+                viewModel.SessionName = $("#SessionName").val();
+                viewModel.Campus = $("#Campus").val();
+                viewModel.SemesterId = $("#SemesterId").val();
+
+                $.post("/Courses/SaveCourse", { course: viewModel }, function () {
+                    alert("Course Created Successfully");
+                    location.reload();
+                })
+            })
+        })
+
+    </script>
+</body>
+</html>

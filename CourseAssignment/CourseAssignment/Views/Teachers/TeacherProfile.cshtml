@@ -1,0 +1,70 @@
+﻿@model IEnumerable<CourseAssignment.Models.Teacher>
+
+@{
+    ViewBag.Title = "Index";
+    string i =Convert.ToString(Session["userid"]);
+}
+
+<h2>Profile</h2>
+
+
+
+@foreach (var item in Model)
+{
+
+
+    if (item.UserId == i)
+    {
+        <p>
+          
+            <a href="@Url.Action("Index","RoutineHistory", new {id =  @item.TeacherOrder })" class="btn btn-default">Routine</a>
+        </p>
+
+        <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    Name:
+                </dt>
+
+                <dd>
+                    @item.Name
+                </dd>
+
+                <dt>
+                    Joining Date:
+                </dt>
+
+                <dd>
+                    @item.joiningDate
+                </dd>
+
+                <dt>
+                    ID:
+                </dt>
+
+                <dd>
+                    @item.TeacherOrder
+                </dd>
+                <dt>
+                    Short Name:
+                </dt>
+
+                <dd>
+                    @item.TeacherShortName
+                </dd>
+
+                <dt>
+                    Phone No:
+                </dt>
+
+                <dd>
+                    @item.User.PhoneNumber
+                </dd>
+
+            </dl>
+    }
+
+}
+
+
+

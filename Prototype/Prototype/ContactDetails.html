@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+ 
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+ 
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/dataTables.bootstrap.min.css">
+  <link rel="stylesheet" href="css/AdminLTE.min.css">
+ 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+
+</head>
+
+<body>
+        <div class="box-body">
+        <div id="example2_wrapper" class="dataTables_wrapper form-inline dt-bootstrap">
+		<div class="row">
+		    <div class="col-sm-6"></div>
+			<div class="col-sm-6"></div>
+		</div>
+		<div class="row">
+		<div class="col-sm-12" align="center">
+		
+                
+                  <a>ID: 1
+				  <br/>
+                  Name: MD Mashiul Azam
+				  <br/>
+                  Email: efti@gmail.com
+				  <br/>
+				  Phone: 01674086295
+				  <br/>
+				  Address: Khilgaon
+				  <br/>
+				  </a>
+                  
+                
+             
+        </div>  
+       </div>
+
+	   <script src="jquery/jquery.min.js"></script>
+<script src="jquery/jquery.dataTables.min.js"></script>
+
+		<script>
+		  $(function () {
+			$('#example1').DataTable()
+			$('#example2').DataTable({
+			  'paging'      : true,
+			  'lengthChange': false,
+			  'searching'   : false,
+			  'ordering'    : true,
+			  'info'        : true,
+			  'autoWidth'   : false
+			})
+		  })
+		</script>
+    </body>
+</html>

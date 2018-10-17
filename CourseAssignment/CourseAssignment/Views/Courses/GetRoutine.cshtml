@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "GetRoutine";
+}
+
+<h2>Select Course Id</h2>
+
+@using (Html.BeginForm())
+{
+
+    <div class="col-md-4">
+        <div class="form-group">
+            <label class="control-label form-designstyle col-md-2">Rooms</label>
+            @Html.DropDownList("list", new SelectList(ViewBag.Id, "Id", "Id"), "--Select--", new { @class = "form-control col-md-2" })
+        </div>
+    </div>
+
+}
+

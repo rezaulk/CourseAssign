@@ -1,0 +1,74 @@
+﻿@model IEnumerable<CourseAssignment.Models.AcademicPlan>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table id="acaplans" class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ClassCommence)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Midterm)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Final)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NextClass)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Season)
+        </th>
+        <th>Action</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ClassCommence)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Midterm)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Final)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NextClass)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Season)
+        </td>
+        <td>
+            <button class="btn btn-danger js-delete" data-delete-id="@item.Id">Delete</button>
+        </td>
+    </tr>
+}
+
+</table>
+@section scripts{
+    <script>
+           $(document).ready(function () {
+               $("#acaplans .js-delete").on("click", function () {
+                   var button = $(this);
+
+                   if (confirm("Are you sure you want to delete this item?")) {
+                       $.ajax({
+                           url: "/api/AcademicPlans/" + button.attr("data-delete-id"),
+                           method: "DELETE",
+                           success: function () {
+                               button.parents("tr").remove();
+                           }
+                       });
+                   }
+               });
+           });
+    </script>
+}

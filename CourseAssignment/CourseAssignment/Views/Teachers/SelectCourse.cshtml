@@ -1,0 +1,43 @@
+﻿@model CourseAssignment.ViewModels.SelectCourseViewModel
+@{
+    ViewBag.Title = "SelectCourse";
+}
+
+<h2>Select Course</h2>
+@using (Html.BeginForm())
+{
+
+    <div class="form-group">
+        <label class="control-label form-designstyle col-md-3">Semester Name</label>
+        @Html.DropDownListFor(model => model.SemsesterName, new SelectList(ViewBag.SemesterName, "Name", "Name"), "--Select--", htmlAttributes: new {@class = "form-control" })
+       
+    </div>
+    <div class="form-group">
+        <label class="control-label form-designstyle col-md-3">Batch Name</label>
+        @Html.DropDownListFor(model => model.BatchName, new SelectList(""), "--Select--", htmlAttributes: new { @class = "form-control" })
+
+    </div>
+    <div class="form-group">
+        <div class="col-md-2" style="float:right;">
+            <input type="submit" value="Find Course" class="btn btn-success" />
+        </div>
+    </div>
+}
+
+@section scripts{
+
+        <script>
+            $(document).ready(function () {
+                $("#SemsesterName").change(function () {
+                    $.get("/Teachers/GetBatchNames", { semesterName: $("#SemsesterName").val() }, function (data) {
+                        $("#BatchName").empty();
+                        $.each(data, function (index, row) {
+                            $("#BatchName").append("<option value='" + row.Name + "'>" + row.Name + "</option>")
+                        });
+                    });
+                });
+            });
+
+        </script>
+
+    }

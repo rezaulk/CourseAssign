@@ -1,0 +1,57 @@
+﻿@model IEnumerable<CourseAssignment.Models.RoutineHistory>
+@{
+    ViewBag.Title = "CoOrdinator";
+}
+<h2>WelCome Coordinator</h2>
+<hr />
+<h3>Task History</h3>
+<hr />
+<table class="table">
+    <tr>
+        <th>Year</th>
+        <th>
+            Batch
+        </th>
+        <th>
+            Semester No
+        </th>
+        <th>
+            Subject Name
+        </th>
+        <th>
+            Campus
+        </th>
+        <th>
+            Room
+        </th>
+        <th>
+            Routine
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.year)</td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BatchName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SemesterNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SemesterName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Campus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Room)
+            </td>
+            <td>
+                <a href="@Url.Action("Index","RoutineHistory", new {id = item.Id })" class="btn btn-default">View</a>
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,92 @@
+﻿@model CourseAssignment.ViewModels.CourseSelectedbyteacherViewModel
+<h2>Choose Course</h2>
+<hr />
+
+<div class="row">
+
+    <div class="col-md-4">
+        @Html.DropDownListFor(m => m.Day, new SelectList(Model.AllDay, "Name", "Name"), "--Select Day--", htmlAttributes: new { @class = "form-control" })
+    </div>
+    <div class="col-md-4">
+        @Html.DropDownListFor(m => m.Times, new SelectList(""), "--Select Time--", htmlAttributes: new { @class = "form-control" })
+    </div>
+    <div class="col-md-4">
+        @Html.DropDownListFor(m => m.Subject, new SelectList(Model.Subjects, "SubjectName", "SubjectName"), "--Select Course--", htmlAttributes: new { @class = "form-control" })
+    </div>
+
+</div>
+<div style="margin:2%">
+    <input type="submit" value="Take Courses" class="btn btn-info ClickButton" />
+</div>
+    <table class="table table-bordered addedItem" style="display:none; margin:2%">
+        <tr>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Course</th>
+        </tr>
+    </table>
+<div style="float:right; margin:2%">
+    <input type="submit" value="Save" class="btn btn-info SaveButton" />
+</div>
+
+
+
+@section scripts{
+
+    <script>
+        $(document).ready(function () {
+
+            viewModel= {
+                Alldays:[],
+                AllTimes:[],
+                AllSubject:[],
+                CourseId : 0
+            }
+
+            $("#Day").change(function () {
+                var id = @Model.Id;
+                var name = $("#Day").val();
+
+                $.get("/Teachers/GetClassTimes", { id:id, DayName: name}, function (data) {
+                    $("#Times").empty();
+                    $.each(data, function (index, row) {
+                        $("#Times").append("<option value='" + row.Name + "'>" + row.Name + "</option>")
+                    });
+                });
+            });
+
+            $(".ClickButton").click(function(){
+                var day = $("#Day").val();
+                var time =  $("#Times").val();
+                var sub = $("#Subject").val();
+
+                if(jQuery.inArray(day,viewModel.Alldays) !=-1 && jQuery.inArray(time,viewModel.AllTimes) !=-1 && jQuery.inArray(sub,viewModel.AllSubject) !=-1){
+                    alert("Already Exists");
+                }
+                else{
+                    viewModel.Alldays.push(day);
+                    viewModel.AllTimes.push(time);
+                    viewModel.AllSubject.push(sub);
+
+                    $(".addedItem").css("display","block");
+                    $(".addedItem").append("<tr><td>"+day+"</td><td>"+time+"</td><td>"+sub+"</td></tr>");
+                
+                }
+            });
+
+            $(".SaveButton").click(function(){
+                viewModel.CourseId = @Model.Id;
+
+                $.post("/Teachers/SaveInfo",{vm : viewModel}, function(){
+                    //console.log(viewModel);
+                    alert("Information Saved");
+                    location.reload();
+                })
+
+            })
+
+        });
+
+    </script>
+
+}

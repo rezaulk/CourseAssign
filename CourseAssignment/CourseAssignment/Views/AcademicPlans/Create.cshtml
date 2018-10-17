@@ -1,0 +1,103 @@
+﻿@model CourseAssignment.Models.AcademicPlan
+
+@{
+    ViewBag.Title = "Academic Plan";
+}
+
+<h3>Create a Academic Plan</h3>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.ClassCommence, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ClassCommence, new { htmlAttributes = new { @class = "form-control datepicker1" } })
+                @Html.ValidationMessageFor(model => model.ClassCommence, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Midterm, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Midterm, new { htmlAttributes = new { @class = "form-control datepicker2" } })
+                @Html.ValidationMessageFor(model => model.Midterm, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Final, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Final, new { htmlAttributes = new { @class = "form-control datepicker3" } })
+                @Html.ValidationMessageFor(model => model.Final, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.NextClass, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.NextClass, new { htmlAttributes = new { @class = "form-control datepicker4" } })
+                @Html.ValidationMessageFor(model => model.NextClass, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Season, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.Season, new SelectList(ViewBag.Season, "Name", "Name"),new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Season, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+<link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+<script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+    <script>
+        $(function () {
+            $(".datepicker1").datepicker({
+                dateFormat: "M dd, yy",
+                changeMonth: true,
+                changeYear: true
+            });
+        });
+        $(function () {
+            $(".datepicker2").datepicker({
+                dateFormat: "M dd, yy",
+                changeMonth: true,
+                changeYear: true
+            });
+        });
+        $(function () {
+            $(".datepicker3").datepicker({
+                dateFormat: "M dd, yy",
+                changeMonth: true,
+                changeYear: true
+            });
+        });
+        $(function () {
+            $(".datepicker4").datepicker({
+                dateFormat: "M dd, yy",
+                changeMonth: true,
+                changeYear: true
+            });
+        });
+    </script>
+}

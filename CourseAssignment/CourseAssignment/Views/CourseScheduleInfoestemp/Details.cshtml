@@ -1,0 +1,50 @@
+﻿@model CourseAssignment.Models.CourseScheduleInfo
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CourseScheduleInfo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CourseId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CourseId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Day)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Day)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Time)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Time)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Room)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Room)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

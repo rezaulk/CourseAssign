@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+ 
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+ 
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/dataTables.bootstrap.min.css">
+  <link rel="stylesheet" href="../css/AdminLTE.min.css">
+ 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+
+</head>
+
+
+<body>
+    
+	<h3>Routine</h3>
+        <div class="box-body">
+        <div id="example2_wrapper" class="dataTables_wrapper form-inline dt-bootstrap">
+		<div class="row">
+		    <div class="col-sm-6"></div>
+			<div class="col-sm-6"></div>
+		</div>
+		<div class="row">
+		<div class="col-sm-12">
+		<table id="example2" class="table table-bordered table-hover dataTable" role="grid" aria-describedby="example2_info">
+            <thead>
+                <tr role="row">
+				  <th class="sorting_asc" tabindex="0" aria-controls="example2" rowspan="4" colspan="1" aria-label="Rendering engine: activate to sort column descending" aria-sort="ascending">Venue</th>
+				  <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending">Room</th>
+				  <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending">Day</th>
+				  <th class="sorting" tabindex="0" aria-controls="example2" rowspan="4" colspan="4" align="center" aria-label="Platform(s): activate to sort column ascending" >Time</th>
+				  
+            </thead>
+                
+			<tbody>
+                <tr role="row" class="odd">
+                  <td></td>
+				   <td></td>
+                  <td></td>
+                  <td><font color="blue">6.30-7.30PM</font></td>
+                  <td><font color="blue">7.30-8.30PM</font></td>
+                  <td><font color="blue">8.30-9.00PM</font></td>
+				  <td><font color="blue">9.00-9.30PM</font></td>
+                </tr>
+				 <tr role="row" class="even">
+                  <td></td>
+				   <td></td>
+                  <td>Tuesday</td>
+                  <td>Computer Graphics<br>(Raaz Chowdhury)</td>
+                  <td>Computer Graphics Lab<br>(Trisa Chowdhury)</td>
+                  <td>Computer Engineering<br>(Shadat Chowdhury)</td>
+				  <td>Software Engineering<br>(Ashraful Chowdhury)</td>
+                </tr>
+				 <tr role="row" class="odd">
+                  <td>PanthaPath</td>
+				   <td>302</td>
+                  <td>WednesDay</td>
+                 <td>Computer Graphics<br>(Reza Chowdhury)</td>
+                  <td>Computer Graphics Lab<br>(Trisa Chowdhury)</td>
+                  <td>Computer Engineering<br>(Rajseh Chowdhury)</td>
+				  <td>Software Engineering<br>(Ashraful Chowdhury)</td>
+                </tr>
+				 <tr role="row" class="even">
+                  <td></td>
+				   <td></td>
+				    <td></td>
+                  <td><font color="blue">6.30-7.30PM</font></td>
+                  <td><font color="blue">7.30-8.30PM</font></td>
+                  <td><font color="blue">8.30-9.00PM</font></td>
+				  <td><font color="blue">9.00-9.30PM</font>s</td>
+                </tr>
+				 <tr role="row" class="odd">
+                  <td></td>
+				   <td></td>
+                 <td>Friday</td>
+                 <td>Computer Graphics<br>(Raaz Chowdhury)</td>
+                  <td>Computer Graphics Lab<br>(Trisa Chowdhury)</td>
+                  <td>Computer Engineering<br>(Shadat Chowdhury)</td>
+				  <td>Software Engineering<br>(Ashraful Chowdhury)</td>
+                </tr>
+				
+			</tbody>
+        </div>  
+       </div>
+
+	   <script src="../jquery/jquery.min.js"></script>
+<script src="../jquery/jquery.dataTables.min.js"></script>
+
+		<script>
+		  $(function () {
+			$('#example1').DataTable()
+			$('#example2').DataTable({
+			  'paging'      : true,
+			  'lengthChange': false,
+			  'searching'   : false,
+			  'ordering'    : true,
+			  'info'        : true,
+			  'autoWidth'   : false
+			})
+		  })
+		</script>
+    </body>
+</html>

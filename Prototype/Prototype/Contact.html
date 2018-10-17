@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+ 
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+ 
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/dataTables.bootstrap.min.css">
+  <link rel="stylesheet" href="css/AdminLTE.min.css">
+ 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+
+</head>
+
+<body>
+        <div class="box-body">
+        <div id="example2_wrapper" class="dataTables_wrapper form-inline dt-bootstrap">
+		<div class="row">
+		    <div class="col-sm-6"></div>
+			<div class="col-sm-6"></div>
+		</div>
+		<div class="row">
+		<div class="col-sm-12">
+		<table id="example2" class="table table-bordered table-hover dataTable" role="grid" aria-describedby="example2_info">
+            <thead>
+                <tr role="row">
+
+				  <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending">Name</th>
+                   <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending">Phone</th>
+				  <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending">Status</th>
+				  </tr>
+            </thead>
+                
+			<tbody>
+                <tr role="row" class="odd" onclick="window.location='ContactDetails.html';">
+ 
+					<td>MD Mashiul Azam</td>
+					<td>01674086295</td>
+					<td>Active</td>
+                </tr>
+				 <tr role="row" class="even" onclick="window.location='ContactDetails.html';">
+          
+                  <td>Rajesh Saha</td>
+                  <td>0182546985</td>
+				  <td>Active</td>
+                </tr>
+				 <tr role="row" class="odd" onclick="window.location='ContactDetails.html';">
+               
+                  <td>MD Mashiul Azam</td>
+                 <td>01985465895</td>
+				  <td>Active</td>
+                </tr>
+				 <tr role="row" class="even" onclick="window.location='ContactDetails.html';">
+                 
+                  <td>Rakibul Hossain</td>
+                  <td>01854655895</td>
+				  <td>Active</td>
+                </tr>
+				 <tr role="row" class="odd" onclick="window.location='ContactDetails.html';">
+                 
+                  <td>Reza Ul Karim</td>
+                  <td>01674086295</td>
+				  <td>Active</td>
+                </tr>
+				 <tr role="row" class="even" onclick="window.location='ContactDetails.html';">
+                 
+                  <td>MD Mashiul Azam</td>
+                  <td>01754875695</td>
+				  <td>Active</td>
+                </tr>	 
+			</tbody>
+        </div>  
+       </div>
+
+	   <script src="jquery/jquery.min.js"></script>
+<script src="jquery/jquery.dataTables.min.js"></script>
+
+		<script>
+		  $(function () {
+			$('#example1').DataTable()
+			$('#example2').DataTable({
+			  'paging'      : true,
+			  'lengthChange': false,
+			  'searching'   : false,
+			  'ordering'    : true,
+			  'info'        : true,
+			  'autoWidth'   : false
+			})
+		  })
+		</script>
+    </body>
+</html>

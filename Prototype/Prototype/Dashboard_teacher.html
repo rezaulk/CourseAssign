@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>AdminLTE 2 | Dashboard</title>
+	 
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	
+	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../bower_components/Ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="../bower_components/jvectormap/jquery-jvectormap.css">
+	<link rel="stylesheet" href="../dist/css/AdminLTE.min.css">
+	<link rel="stylesheet" href="../dist/css/skins/_all-skins.min.css">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+
+<div class="wrapper">
+
+    <header class="main-header">
+   
+		<a href="Dashboard.html" class="logo">
+		  
+		  <span class="logo-lg"><b>Course Assignment Management System</b></span>
+		</a>
+
+		<nav class="navbar navbar-static-top">
+		  
+		  
+		</nav>
+    </header>
+  
+    <aside class="main-sidebar">
+   
+		<section class="sidebar">
+	   
+		  <div class="user-panel">
+			<div class="pull-left image"><hr/></div>
+			<div class="pull-left info"><p>Shahadat Raaz</p><a href="#"><i class="fa fa-circle text-success"></i> Online</a></div>
+		  </div>
+		  
+		    <ul class="sidebar-menu" data-widget="tree">
+				<li class="header">MAIN NAVIGATION</li>
+				<li><a href="Teacher/Profile.html" target="contentFrame"><i class="fa fa-dashboard"></i> <span>Profile</span></a></li>
+				<li><a href="Teacher/ViewRoutine.html" target="contentFrame"><i class="fa fa-dashboard"></i> <span>Routine</span></a></li>
+				<li><a href="Teacher/SelectCourse.html" target="contentFrame"><i class="fa fa-files-o"></i><span>Select Course</span></a></li>
+			
+			</ul>
+		</section>
+
+    </aside>
+
+  
+    <div class="content-wrapper">
+        
+		<body>
+			
+			<div class="w3-main" style="margin-left:30px;margin-top:43px;"><br/><iframe id="frame" name="contentFrame" frameborder="0" width="100%" height="450px" src="Teacher/Index.html"></iframe></div>
+			
+			
+			
+			
+		    <script src="jquery/jquery.min.js"></script>
+	        <script src="jquery/jquery.dataTables.min.js"></script>
+
+			<script>
+			  $(function () {
+				$('#example1').DataTable()
+				$('#example2').DataTable({
+				  'paging'      : true,
+				  'lengthChange': false,
+				  'searching'   : false,
+				  'ordering'    : true,
+				  'info'        : true,
+				  'autoWidth'   : false
+				})
+			  })
+			</script>
+		</body>
+		
+    </div>      
+
+
+	
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/fastclick/lib/fastclick.js"></script>
+
+
+
+</body>
+</html>

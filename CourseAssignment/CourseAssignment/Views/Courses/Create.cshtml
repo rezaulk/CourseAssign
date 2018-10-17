@@ -1,0 +1,203 @@
+﻿@model CourseAssignment.ViewModels.CourseViewModel
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<style>
+    .form-designstyle {
+        float: left;
+        margin-top: 1%;
+        margin-right: 2%;
+    }
+</style>
+
+<h2>Create A Course Plan</h2>
+
+@*@using (Html.BeginForm())
+{*@
+    <hr />
+    @*@Html.AntiForgeryToken()*@
+    <div class="row">
+
+        <div class="col-md-6">
+            <div class="form-group">
+                <label class="control-label form-designstyle col-md-3">Batch</label>
+                @Html.DropDownListFor(m=>m.BatchId, new SelectList(Model.Batch,"Id","Name"), "--Select--", htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.BatchId, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <label class="control-label form-designstyle col-md-3">Semester No</label>
+                @Html.DropDownListFor(m => m.SemesterId, new SelectList(Model.Semester, "Id", "Name"), "--Select--", htmlAttributes: new {  @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.SemesterId, "", new { @class = "text-danger" })
+            </div>
+
+
+
+        </div>
+        <div class="col-md-6">
+
+            <div class="form-group">
+               
+                <label class="control-label form-designstyle col-md-3" @*style="margin-left:-19%"*@>Campus</label> 
+               @* @Html.EditorFor(model => model.Campus, new { htmlAttributes = new { @class = "form-control" } })*@
+                @Html.DropDownListFor(model => model.Rooms, new SelectList(Model.Rooms, "CampusName", "CampusName"), "--Select--", new { @class = "form-control col-md-2" })
+               @Html.ValidationMessageFor(model => model.Campus, "", new { @class = "text-danger" })
+            </div>
+          
+            <div class="form-group">
+                <br /><br />
+                <label class="control-label form-designstyle col-md-3" >Semester Name</label>
+                @Html.DropDownListFor(model => model.SessionName, new SelectList(Model.Session, "Name", "Name"), "--Select--", htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.SessionName, "", new { @class = "text-danger" })
+            </div>
+
+           
+            <div class="form-group">
+                <br />
+                <label class="control-label form-designstyle col-md-3">Friday Times</label>
+                @Html.DropDownListFor(model => model.AllFridayClassTimes, new SelectList(Model.FridayClassTimes, "Name", "Name"), "--Select--", new { id = "normalDropDown8", multiple = "multiple", @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.AllFridayClassTimes, "", new { @class = "text-danger" })</label>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <label class="control-label form-designstyle col-md-2">Days</label>
+             
+                @Html.DropDownListFor(model => model.AllWeekDay, new SelectList(Model.WeekDay, "Name", "Name"), "--Select--", new { id = "normal", multiple = "multiple", @class = "form-control" })
+                @*@Html.ValidationMessageFor(model => model.AllWeekDay, "", new { @class = "text-danger" })*@
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label class="control-label form-designstyle col-md-2">Rooms</label> 
+                @Html.DropDownListFor(model => model.AllRooms, new SelectList(Model.Rooms, "Name", "Name"), "--Select--", new {  @class = "form-control col-md-2" })
+                @Html.ValidationMessageFor(model => model.AllRooms, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label class="control-label form-designstyle col-md-2">Time</label>
+
+                @Html.DropDownListFor(model => model.AllClassTime, new SelectList(Model.ClassTimes, "Name", "Name"), "--Select--", new { id = "normalDropDown", multiple = "multiple", @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.AllClassTime, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <input type="submit" id="ClickButton" class="btn btn-info" value="Add" style="float: right;margin: 2%;"/>
+        <table class="table table-bordered appendTable " style="margin-top:2%">
+
+        </table>
+        <div class="form-group">
+            <div class="col-md-2 saveButton" style="float:right; display:none">
+                <input type="submit" value="Create" class="btn btn-success" id="saveValue" />
+            </div>
+        </div>
+    </div>
+
+@section scripts{
+
+    <script>
+
+        $(document).ready(function () {
+
+            viewModel = {
+                AllWeekDay: [],
+                AllClassTime: [],
+                AllRooms: [],
+                AllFridayClassTimes : [],
+                Campus: "",
+                SessionName: "",
+                BatchId: 0,
+                SemesterId: 0
+
+            };
+
+            $("#normalDropDown8").chosen();
+            $("#normalDropDown").chosen();
+            $("#normal").chosen();
+
+            
+
+
+            $("#ClickButton").click(function () {
+                
+                var day = $("#AllWeekDay").val();
+                var time = $("#AllClassTime").val();
+                var room = $("#AllRooms").val();
+                var semester = $("#SessionName").val();
+                var rooms = $("#Rooms").val();
+
+                if (jQuery.inArray(day, viewModel.AllWeekDay) !== -1 && jQuery.inArray(room, viewModel.AllRooms) !== -1) {
+                    alert("Already Exists");
+                }
+                else {
+                    viewModel.AllWeekDay.push(day);
+                    viewModel.AllClassTime.push(time);
+                    viewModel.AllRooms.push(room);
+
+                    $(".appendTable").append("<tr><td>" + semester + "</td><td>" +rooms+ "</td><td>" + room + "</td></tr>");
+                    $(".saveButton").css("display", "block");
+                }
+
+
+                
+
+            });
+
+            $("#saveValue").click(function () {
+                var tempData = $("#normalDropDown8").val();
+                var tempDat = $("#normalDropDown").val();
+                var tempDt = $("#normal").val();
+                var rooms = $("#Rooms").val();
+
+                viewModel.AllFridayClassTimes = tempData;
+                viewModel.AllClassTime = tempDat;
+                viewModel.AllWeekDay = tempDt;
+
+                viewModel.BatchId = $("#BatchId").val();
+                viewModel.SessionName = $("#SessionName").val();
+                viewModel.Campus = rooms;
+                viewModel.SemesterId = $("#SemesterId").val();
+
+                $.post("/Courses/SaveCourse", { course: viewModel }, function () {
+                    alert("Course Created Successfully");
+                    location.href = "http://localhost:49961/RoutineHistory/viewRoutine";
+                })
+            })
+        })
+
+        //$(function () {
+        //    //normal dropdown
+        //    $("#normalDropDown").chosen({
+        //        disable_search_threshold: 100
+        //    });
+        //    $("#normalDropDown2").chosen({
+        //        disable_search_threshold: 100
+        //    });
+        //    $("#normalDropDown3").chosen({
+        //        disable_search_threshold: 100
+        //    });
+        //    $("#normalDropDown4").chosen({
+        //        disable_search_threshold: 100
+        //    });
+        //    $("#normalDropDown5").chosen({
+        //        disable_search_threshold: 100
+        //    });
+        //    $("#normalDropDown6").chosen({
+        //        disable_search_threshold: 100
+        //    });
+        //    $("#normalDropDown8").chosen({
+        //        disable_search_threshold: 100
+        //    });
+        //    //multiselect DropDown
+        //    //$("#multiSelectDropDown").chosen({
+        //    //    width : "100%"
+        //    //});
+        //});
+
+    </script>
+}
+

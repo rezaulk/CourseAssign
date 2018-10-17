@@ -1,0 +1,166 @@
+﻿@model CourseAssignment.ViewModels.RoutineViewModel
+@{
+    ViewBag.Title = "Routine";
+    int c = Model.WeekDays.Count();
+    c += 3;
+    var x = 1;
+}
+
+<style>
+    .dropdownDesign {
+            height: 48px;
+            line-height: 1.428571429;
+            color: #555555;
+            vertical-align: middle;
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            border-radius: 14px;
+    }
+</style>
+<h2>Routine</h2>
+
+@*<table class="table table-bordered">
+    <tr>
+        <th>Venue</th>
+        <th>Days</th>
+        <th>6:30-7:20pm</th>
+        <th>7:20-8:10pm</th>
+        <th>8:10-9:00pm</th>
+        <th>9:00-9:50pm</th>
+    </tr>
+    <tr></tr>
+
+    @foreach (var value in Model.WeekDays)
+    {
+        <tr>
+            @if(c == 1)
+            {
+                <td rowspan="@Model.WeekDays.Count()+@c">@Model.Course.Campus</td>
+                c = c + 100;
+            }
+                <td>@value</td>
+                <td>
+                        @Html.DropDownList("list1", new SelectList(Model.Subjects, "Id", "SubjectName"));
+                </td>
+            <td>
+                @Html.DropDownList("list1", new SelectList(Model.Subjects, "Id", "SubjectName"));
+            </td>
+            <td>
+                @Html.DropDownList("list1", new SelectList(Model.Subjects, "Id", "SubjectName"));
+            </td>
+            <td>
+                @Html.DropDownList("list1", new SelectList(Model.Subjects, "Id", "SubjectName"));
+            </td>
+        </tr>
+        if (c == 101)
+        {
+            <tr>
+                <td>Friday</td>
+                <td>9.30</td>
+            </tr>
+            c = c + 200;
+        }
+
+    }
+
+
+</table>*@
+
+<div class="text-center" style="border:1px solid black; margin-top:2%;margin-bottom:2%">
+    <h3>
+        Class will be effective From @Model.AcademicPlans.ClassCommence
+        <br />@Model.Course.Batch.Name,
+        @Model.Course.Semester.Name Semester(Evening Batch)
+    </h3>
+</div>
+
+@using (Html.BeginForm("Routine","Courses",FormMethod.Post))
+{
+    <table class="table table-bordered" align="center">
+        <tr>
+            <th width="94" scope="col" style="text-align:center">Venue</th>
+            <th width="94" scope="col" style="text-align:center">Room</th>
+            <th width="192" scope="col" style="text-align:center">Days</th>
+            <th colspan="5" scope="col" style="text-align:center">Time</th>
+        </tr>
+        <tr >
+            <td rowspan="@c" style="vertical-align:middle">
+                <h3>@Model.Course.Campus</h3>
+               
+            </td>
+            <td rowspan="@c" style="vertical-align:middle"> 
+                 <h5>(@Model.Course.Rooms)</h5>
+            </td>
+            <td></td>
+            @foreach (var item in Model.Classtimes)
+            {
+                <td>@item</td>
+            }
+           
+           
+        </tr>
+      
+        @foreach (var item in Model.WeekDays)
+        {
+            
+            <tr>
+                <td height="70" style="font-weight:bold">@item</td>
+
+                @for (int os = 1; os <= Model.Classtimes.Count(); os++)
+                {
+                    <td>@Html.DropDownList("list" + x + "s", new SelectList(Model.Subjects, "Id", "SubjectName"), "--Select--", new { @class = "dropdown dropdownDesign" })</td>
+                    x = x + 1;
+                }
+                @*<td>@Html.DropDownList("list"+x+"s", new SelectList(Model.Subjects, "Id", "SubjectName"), "--Select--", new { @class = "dropdown dropdownDesign" })</td>
+                <td>@Html.DropDownList("list" + x + 1+"s", new SelectList(Model.Subjects, "Id", "SubjectName"), "--Select--", new { @class = "dropdown dropdownDesign" })</td>
+                <td>@Html.DropDownList("list" + x + 2 + "s", new SelectList(Model.Subjects, "Id", "SubjectName"), "--Select--", new { @class = "dropdown dropdownDesign" })</td>
+                <td colspan="2">@Html.DropDownList("list" + x + 3 + "s", new SelectList(Model.Subjects, "Id", "SubjectName"), "--Select--", new { @class = "dropdown dropdownDesign" })</td>*@
+            </tr>
+            //x = x + 1;
+        }
+        <tr>
+            <td rowspan="2" style="font-weight:bold">Friday</td>
+            @foreach (var item in Model.FridayClassTimes) {
+                <td >@item</td>
+            }
+        </tr>
+        <tr>
+            @for (var z = 1; z <= Model.FridayClassTimes.Count(); z++)
+            {
+                <td>@Html.DropDownList("list" + x + "s", new SelectList(Model.Subjects, "Id", "SubjectName"), "--Select--", new { @class = "dropdown dropdownDesign" })</td>
+                x = x + 1;
+            }
+            @*<td colspan="2">@Html.DropDownList("list" + x + "s", new SelectList(Model.Subjects, "Id", "SubjectName"), "--Select--", new { @class = "dropdown dropdownDesign" })</td>
+            <td>@Html.DropDownList("list" + x + 1+"s", new SelectList(Model.Subjects, "Id", "SubjectName"), "--Select--", new { @class = "dropdown dropdownDesign" })</td>
+            <td>@Html.DropDownList("list" + x + 2+"s", new SelectList(Model.Subjects, "Id", "SubjectName"), "--Select--", new { @class = "dropdown dropdownDesign" })</td>
+            <td>@Html.DropDownList("list" + x + 3+"s", new SelectList(Model.Subjects, "Id", "SubjectName"), "--Select--", new { @class = "dropdown dropdownDesign" })</td>*@
+        </tr>
+
+
+    </table>
+    <div class="form-group" style="margin-bottom:2%">
+        <div class="col-md-2" style="float:right;">
+            <input type="submit" value="Save" class="btn btn-success" style="margin-bottom:8%; float:right;"/>
+        </div>
+    </div>
+}
+<div>
+    <table class="table table-bordered">
+        <tr>
+            <th>Course Code</th>
+            <th>Course Name</th>
+            <th>Teachers Name</th>
+        </tr>
+        @foreach (var item in Model.Subjects)
+        {
+            <tr>
+                <td>
+                    @item.SubjectCode
+                </td>
+                <td>@item.SubjectName</td>
+                <td></td>
+            </tr>
+        }
+    </table>
+</div>
+

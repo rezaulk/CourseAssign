@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+ 
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+ 
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/dataTables.bootstrap.min.css">
+  <link rel="stylesheet" href="../css/AdminLTE.min.css">
+ 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+
+</head>
+
+
+
+
+<body>
+<form action="/AcademicPlans/Create" method="post"><div class="form-horizontal">
+        <hr />
+        
+        <div class="form-group">
+            <label class="control-label col-md-2" for="ClassCommence">Class Commence</label>
+            <div class="col-md-6">
+                <input class="form-control datepicker1 text-box single-line" id="ClassCommence" name="ClassCommence" type="text" value="" />
+                <span class="field-validation-valid text-danger" data-valmsg-for="ClassCommence" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="Midterm">Mid Term</label>
+            <div class="col-md-6">
+                <input class="form-control datepicker2 text-box single-line" id="Midterm" name="Midterm" type="text" value="" />
+                <span class="field-validation-valid text-danger" data-valmsg-for="Midterm" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="Final">Final</label>
+            <div class="col-md-6">
+                <input class="form-control datepicker3 text-box single-line" id="Final" name="Final" type="text" value="" />
+                <span class="field-validation-valid text-danger" data-valmsg-for="Final" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="NextClass">Next Class</label>
+            <div class="col-md-6">
+                <input class="form-control datepicker4 text-box single-line" id="NextClass" name="NextClass" type="text" value="" />
+                <span class="field-validation-valid text-danger" data-valmsg-for="NextClass" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="Season">Semester Name</label>
+            <div class="col-md-6">
+                <select class="form-control" id="Season" name="Season">
+					<option value="Spring">Spring</option>
+					<option value="Summer">Summer</option>
+					<option value="Fall">Fall</option>
+				</select>
+                <span class="field-validation-valid text-danger" data-valmsg-for="Season" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+</body>

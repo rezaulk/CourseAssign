@@ -1,0 +1,360 @@
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\roslyn\csc.exe
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\roslyn\vbc.exe
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\roslyn\VBCSCompiler.exe
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\CourseAssignment.dll.config
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\CourseAssignment.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\CourseAssignment.pdb
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Antlr3.Runtime.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\EntityFramework.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\EntityFramework.SqlServer.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Newtonsoft.Json.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Owin.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\System.Web.Helpers.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\System.Web.Mvc.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\System.Web.Optimization.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\System.Web.Razor.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\System.Web.WebPages.Deployment.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\System.Web.WebPages.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\System.Web.WebPages.Razor.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\WebGrease.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\System.Web.Helpers.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\System.Web.Mvc.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\System.Web.Optimization.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\System.Web.Razor.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\System.Web.WebPages.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\System.Web.WebPages.Deployment.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\System.Web.WebPages.Razor.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Antlr3.Runtime.pdb
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Newtonsoft.Json.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\EntityFramework.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\EntityFramework.SqlServer.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.initialModel.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.newModel.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddedTeacher.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddednewteacherProperty.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddednewteacherProperty1.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedSubjectTable.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.populateSemesterTable.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.PopulateCategoryTable.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddedShiftTable.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.UpdatedCourseTable.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.RemoveName.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.ChangetoDateTime.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.updatedTeacherTable.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.updatedSubjectTable.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedAcademicPlan.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedAcademicPlan1.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedAcademicPlan2.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedClassTimeTable.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.UpdatedAgainCourseTable.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.NewUpdateTeacherTable.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.CourseTableRemodified.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedNewProperties.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.remodifiedTable.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.RemoveSubjects.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.yetAnoderMigration.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.csproj.GenerateResource.Cache
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.pdb
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.csprojResolveAssemblyReference.cache
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedRoutineHistory.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.updateoutineHistoryTable.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addeddaysfield.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedCourseTakenTable.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedCoordinatorIdProperty.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedRoomTable.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.newUpdates.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.changedRoutineHistoryTable.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.regeneratedTeacherTable.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\System.Net.Http.Formatting.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\System.Web.Http.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\System.Web.Http.WebHost.dll
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\System.Net.Http.Formatting.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\System.Web.Http.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\bin\System.Web.Http.WebHost.xml
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedFridayClassTimes.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.UpdatedCourseTable45.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddedNewPropertytoRoutineHistory.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddedTempSelectedCourse.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedCoursescheuleInfo.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedNewPropertytoCourseSchedule.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddedNewTabletoSaveCourseTeacher.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.ReformPreviouslyCreatedTable.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddedSubjectForCOurseTable.resources
+C:\Users\fahim\Documents\Visual Studio 2015\Projects\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedYearProperty.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\csc.exe
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\vbc.exe
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\VBCSCompiler.exe
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\CourseAssignment.dll.config
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\CourseAssignment.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\CourseAssignment.pdb
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Antlr3.Runtime.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\EntityFramework.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\EntityFramework.SqlServer.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Newtonsoft.Json.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Owin.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Net.Http.Formatting.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Helpers.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Http.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Http.WebHost.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Mvc.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Optimization.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Razor.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.WebPages.Deployment.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.WebPages.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.WebPages.Razor.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\WebGrease.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Net.Http.Formatting.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Http.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Http.WebHost.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Helpers.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Mvc.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Optimization.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Razor.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.WebPages.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.WebPages.Deployment.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.WebPages.Razor.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Antlr3.Runtime.pdb
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Newtonsoft.Json.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\EntityFramework.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\EntityFramework.SqlServer.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.csprojResolveAssemblyReference.cache
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.initialModel.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.newModel.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddedTeacher.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddednewteacherProperty.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddednewteacherProperty1.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedSubjectTable.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.populateSemesterTable.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.PopulateCategoryTable.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddedShiftTable.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.UpdatedCourseTable.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.RemoveName.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.ChangetoDateTime.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.updatedTeacherTable.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.updatedSubjectTable.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedAcademicPlan.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedAcademicPlan1.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedAcademicPlan2.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedClassTimeTable.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.UpdatedAgainCourseTable.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.NewUpdateTeacherTable.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.CourseTableRemodified.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedNewProperties.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.remodifiedTable.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.RemoveSubjects.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.yetAnoderMigration.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedRoutineHistory.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.updateoutineHistoryTable.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addeddaysfield.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedCourseTakenTable.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedCoordinatorIdProperty.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedRoomTable.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.newUpdates.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.changedRoutineHistoryTable.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.regeneratedTeacherTable.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedFridayClassTimes.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.UpdatedCourseTable45.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddedNewPropertytoRoutineHistory.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddedTempSelectedCourse.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedCoursescheuleInfo.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedNewPropertytoCourseSchedule.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddedNewTabletoSaveCourseTeacher.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.ReformPreviouslyCreatedTable.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddedSubjectForCOurseTable.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedYearProperty.resources
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.csproj.GenerateResource.Cache
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.dll
+C:\Users\RIDOY\Desktop\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.pdb
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\csc.exe
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\System.Collections.Immutable.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\System.Reflection.Metadata.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\vbc.exe
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\VBCSCompiler.exe
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\roslyn\VBCSCompiler.exe.config
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\CourseAssignment.dll.config
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\CourseAssignment.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\CourseAssignment.pdb
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Antlr3.Runtime.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\EntityFramework.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\EntityFramework.SqlServer.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.AspNet.Identity.Core.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Cookies.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Facebook.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Google.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.OAuth.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Twitter.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Web.Infrastructure.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Newtonsoft.Json.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Owin.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Net.Http.Formatting.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Helpers.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Http.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Http.WebHost.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Mvc.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Optimization.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Razor.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.WebPages.Deployment.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.WebPages.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.WebPages.Razor.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\WebGrease.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Net.Http.Formatting.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Http.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Http.WebHost.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Helpers.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Mvc.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Optimization.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.Razor.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.WebPages.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.WebPages.Deployment.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\System.Web.WebPages.Razor.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Antlr3.Runtime.pdb
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Newtonsoft.Json.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\EntityFramework.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\EntityFramework.SqlServer.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.AspNet.Identity.Core.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Facebook.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Cookies.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.OAuth.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Google.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.Twitter.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.csprojResolveAssemblyReference.cache
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.initialModel.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.newModel.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddedTeacher.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddednewteacherProperty.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddednewteacherProperty1.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedSubjectTable.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.populateSemesterTable.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.PopulateCategoryTable.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddedShiftTable.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.UpdatedCourseTable.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.RemoveName.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.ChangetoDateTime.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.updatedTeacherTable.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.updatedSubjectTable.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedAcademicPlan.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedAcademicPlan1.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedAcademicPlan2.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedClassTimeTable.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.UpdatedAgainCourseTable.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.NewUpdateTeacherTable.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.CourseTableRemodified.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedNewProperties.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.remodifiedTable.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.RemoveSubjects.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.yetAnoderMigration.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedRoutineHistory.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.updateoutineHistoryTable.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addeddaysfield.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedCourseTakenTable.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedCoordinatorIdProperty.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedRoomTable.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.newUpdates.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.changedRoutineHistoryTable.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.regeneratedTeacherTable.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedFridayClassTimes.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.UpdatedCourseTable45.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddedNewPropertytoRoutineHistory.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddedTempSelectedCourse.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedCoursescheuleInfo.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedNewPropertytoCourseSchedule.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddedNewTabletoSaveCourseTeacher.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.ReformPreviouslyCreatedTable.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.AddedSubjectForCOurseTable.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.Migrations.addedYearProperty.resources
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.csproj.GenerateResource.Cache
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.dll
+D:\CourseAssignment\CourseAssignment (2)\CourseAssignment\CourseAssignment\obj\Debug\CourseAssignment.pdb
