@@ -7,88 +7,165 @@
  
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
  
-  <link rel="stylesheet" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" href="../css/dataTables.bootstrap.min.css">
-  <link rel="stylesheet" href="../css/AdminLTE.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
  
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 
 </head>
 
 <body>
-        <div class="box-body">
-        <div id="example2_wrapper" class="dataTables_wrapper form-inline dt-bootstrap">
-		<div class="row">
-		    <div class="col-sm-6"></div>
-			<div class="col-sm-6"></div>
-		</div>
-		<input type="button" onclick="window.location='CreateNewTeacher.html';" value="create New Teacher"/>
-		<div class="row">
-		<div class="col-sm-12">
-		<table id="example2" class="table table-bordered table-hover dataTable" role="grid" aria-describedby="example2_info">
-            <thead>
-                <tr role="row">
-				  <th class="sorting_asc" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Rendering engine: activate to sort column descending" aria-sort="ascending">ID</th>
-				  <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending">Name</th>
-				  <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Platform(s): activate to sort column ascending">Email</th>
-				  <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="Engine version: activate to sort column ascending">NickName</th>
-				  <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending">Teacher Order</th>
-				  <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending">Status</th>
-				  </tr>
-            </thead>
-                
-			<tbody>
-                <tr role="row" class="odd">
-                  <td class="sorting_1">1</td>
-                  <td>MD Mashiul Azam</td>
-                  <td>efti@gmail.com</td>
-                  <td>Efti</td>
-                  <td>2</td>
-				  <td><input type="button" value="Delete"/></td>
-                </tr>
-				 <tr role="row" class="even">
-                  <td class="sorting_1">2</td>
-                  <td>Rajesh Saha</td>
-                  <td>rajesh@gmail.com</td>
-                  <td>Rajesh</td>
-                  <td>2</td>
-				  <td><input type="button" value="Delete"/></td>
-                </tr>
-				 <tr role="row" class="odd">
-                  <td class="sorting_1">3</td>
-                  <td>MD Mashiul Azam</td>
-                  <td>efti@gmail.com</td>
-                  <td>Mashiul</td>
-                  <td>2</td>
-				  <td><input type="button" value="Delete"/></td>
-                </tr>
-				 <tr role="row" class="even">
-                  <td class="sorting_1">4</td>
-                  <td>Rakibul Hossain</td>
-                  <td>RakibulHossain@gmail.com</td>
-                  <td>100</td>
-                  <td>2</td>
-				   <td><input type="button" value="Delete"/></td>
-                </tr>
-				 <tr role="row" class="odd">
-                  <td class="sorting_1">5</td>
-                  <td>Reza Ul Karim</td>
-                  <td>RezaU@gmail.com</td>
-                  <td>Karim</td>
-                  <td>2</td>
-				   <td><input type="button" value="Delete"/></td>
-                </tr>
-				 <tr role="row" class="even">
-                  <td class="sorting_1">6</td>
-                  <td>MD Mashiul Azam</td>
-                  <td>efti@gmail.com</td>
-                  <td>Toma Azam</td>
-                  <td>2</td>
-				  <td><input type="button" value="Delete"/></td>
-                </tr>	 
-			</tbody>
-        </div>  
+        <div class="container">
+      		<div class="row">
+      		    <div class="col-sm-6">
+              
+            <button data-toggle="modal" data-target="#CreateNewTeacher" class="btn btn-success">Create New Teacher</button>
+
+              </div>
+      		</div>
+      		<div class="row">
+        		<div class="col-sm-12">
+          		<table  class="table table-bordered">
+                      <thead>
+                          <tr>
+                  				  <th>ID</th>
+                  				  <th>Name</th>
+                  				  <th>Email</th>
+                  				  <th>NickName</th>
+                  				  <th>Teacher Order</th>
+                  				  <th>Status</th>
+                  				  </tr>
+                      </thead>
+                          
+          			      <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>MD Mashiul Azam</td>
+                            <td>efti@gmail.com</td>
+                            <td>Efti</td>
+                            <td>2</td>
+          				          <td><input type="button" value="Delete"/></td>
+                          </tr>
+          				        <tr>
+                            <td>2</td>
+                            <td>Rajesh Saha</td>
+                            <td>rajesh@gmail.com</td>
+                            <td>Rajesh</td>
+                            <td>2</td>
+          				          <td><input type="button" value="Delete"/></td>
+                          </tr>
+          				        <tr>
+                            <td>3</td>
+                            <td>MD Mashiul Azam</td>
+                            <td>efti@gmail.com</td>
+                            <td>Mashiul</td>
+                            <td>2</td>
+          				          <td><input type="button" value="Delete"/></td>
+                          </tr>
+          				        <tr >
+                            <td>4</td>
+                            <td>Rakibul Hossain</td>
+                            <td>RakibulHossain@gmail.com</td>
+                            <td>100</td>
+                            <td>2</td>
+          				          <td><input type="button" value="Delete"/></td>
+                          </tr>
+          				        <tr>
+                            <td>5</td>
+                            <td>Reza Ul Karim</td>
+                            <td>RezaU@gmail.com</td>
+                            <td>Karim</td>
+                            <td>2</td>
+          				          <td><input type="button" value="Delete"/></td>
+                          </tr>
+          				       <tr>
+                            <td>6</td>
+                            <td>MD Mashiul Azam</td>
+                            <td>efti@gmail.com</td>
+                            <td>Toma Azam</td>
+                            <td>2</td>
+          				          <td><input type="button" value="Delete"/></td>
+                          </tr>	 
+          			      </tbody>
+               </table>
+           </div>
        </div>
+   </div>
+
+
+<div class="modal" id="CreateNewTeacher" role="dialog" style="padding-top:50px;">
+         <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <div class="modal-body">
+            
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <div class="col-md-5">
+                                <label>Full Name</label>
+                                <input id="Name" name="Name" type="text" value="" />
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <div class="col-md-5">
+                                <label>Email</label>
+                                <input id="Email" name="Email" type="email" value="" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-5">
+                                <label>Joining Date</label>
+                                <input  id="JoiningDate" name="JoiningDate" type="datetime" value="" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-5">
+                                <label>Mobile Number</label>
+                                <input  id="MobileNo" name="MobileNo" type="text" value="" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-5">
+                                <label>Nick Name</label>
+                                <input id="TeacherShortName" name="TeacherShortName" type="text" value="" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-5">
+                                <label >Password</label>
+                                <input  id="Password" name="Password" type="password" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-5">
+                            <label>Confirm password</label>
+
+                                <input id="ConfirmPassword" name="ConfirmPassword" type="password" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Create" class="btn btn-default" />
+                            </div>
+                        </div>
+                 </div>
+
+
+          </div>
+        </div>
+        </div>
+      </div>
 
 	   <script src="../jquery/jquery.min.js"></script>
 <script src="../jquery/jquery.dataTables.min.js"></script>
