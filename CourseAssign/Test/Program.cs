@@ -10,6 +10,8 @@ namespace Test
     {
         static void Main(string[] args)
         {
+            CourseAssignDatabaseCodefirst db = new CourseAssignDatabaseCodefirst();
+            db.CreateDB();
         }
     }
 }

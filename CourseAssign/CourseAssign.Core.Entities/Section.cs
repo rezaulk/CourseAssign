@@ -7,15 +7,11 @@ using System.Threading.Tasks;
 
 namespace CourseAssign.Core.Entities
 {
-    class Teacher
+    public class Section
     {
         [Key]
-        public string Id { get; set; }
-        public int Name { get; set; }
-        public string PhoneNo { get; set; }
-        public string Password { get; set; }
-        public string Nickname { get; set; }
-        public string Email { get; set; }
+        public int SecId { get; set; }
+        public string Name { get; set; }
 
     }
 }
