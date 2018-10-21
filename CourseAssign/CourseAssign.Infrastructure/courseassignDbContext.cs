@@ -15,5 +15,9 @@ namespace CourseAssign.Infrastructure
 
         }
         public DbSet<Teacher> Teachers { get; set; }
+        public DbSet<Course> Courses { get; set; }
+        public DbSet<Section> Sections { get; set; }
+        public DbSet<Batch> Batches { get; set; }
+
     }
 }

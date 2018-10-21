@@ -29,7 +29,11 @@ namespace CourseAssign
             IUnityContainer container = new UnityContainer();
 
             container.RegisterType<ITeacherService, TeacherService>();
-           
+            container.RegisterType<ISectionService, SectionService>();
+            container.RegisterType<ICourseService, CourseService>();
+            container.RegisterType<IBatchService, BatchService>();
+
+
 
             container.RegisterType<DbContext, courseassignDbContext>();
 

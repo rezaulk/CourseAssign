@@ -130,6 +130,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\UnityConfig.cs" />
+    <Compile Include="IBatchService.cs" />
+    <Compile Include="ISectionService.cs" />
     <Compile Include="IStudentService.cs" />
     <Compile Include="IScheduleService.cs" />
     <Compile Include="ICourseService.cs" />

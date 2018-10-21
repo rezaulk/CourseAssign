@@ -11,6 +11,8 @@ namespace CourseAssign.Core.Entities
     {
         [Key]
         public int SecId { get; set; }
+        public int Cid { get; set; }
+        public int Tid { get; set; }
         public string Name { get; set; }
 
     }

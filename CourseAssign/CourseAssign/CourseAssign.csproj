@@ -242,6 +242,9 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Coordinator\BatchesViewModel.cs" />
+    <Compile Include="Models\Coordinator\CourseViewModel.cs" />
+    <Compile Include="Models\Coordinator\SectionViewModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\TeacherViewModel.cs" />
@@ -311,6 +314,11 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Coordinator\Teachers.cshtml" />
     <Content Include="Views\Coordinator\_ViewStart.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Coordinator\Sections.cshtml" />
+    <Content Include="Views\Coordinator\Courses.cshtml" />
+    <Content Include="Views\Coordinator\Batches.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

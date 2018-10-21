@@ -42,6 +42,5 @@ F:\GitHub\CourseAssign\CourseAssign\CourseAssign.Core.Entities\bin\Debug\Unity.I
 F:\GitHub\CourseAssign\CourseAssign\CourseAssign.Core.Entities\bin\Debug\Unity.Interception.Configuration.pdb
 F:\GitHub\CourseAssign\CourseAssign\CourseAssign.Core.Entities\bin\Debug\Unity.RegistrationByConvention.pdb
 F:\GitHub\CourseAssign\CourseAssign\CourseAssign.Core.Entities\bin\Debug\Unity.ServiceLocation.pdb
-F:\GitHub\CourseAssign\CourseAssign\CourseAssign.Core.Entities\obj\Debug\CourseAssign.Core.Entities.csprojResolveAssemblyReference.cache
 F:\GitHub\CourseAssign\CourseAssign\CourseAssign.Core.Entities\obj\Debug\CourseAssign.Core.Entities.dll
 F:\GitHub\CourseAssign\CourseAssign\CourseAssign.Core.Entities\obj\Debug\CourseAssign.Core.Entities.pdb

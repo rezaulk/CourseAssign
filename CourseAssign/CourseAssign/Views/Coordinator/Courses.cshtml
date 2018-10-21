@@ -1,0 +1,48 @@
+﻿@model CourseAssign.Models.Coordinator.CourseViewModel
+
+@{
+    ViewBag.Title = "Courses";
+}
+
+<h2>Courses</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <button data-toggle="modal" data-target="#CreateNewTeacher" class="btn btn-success">Create New Teacher</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Subject Code</th>
+                        <th>Subject Name</th>
+                        <th>Semester</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    @foreach (var item in Model.Courses)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Cid)
+                            </td>
+                            <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                            <td>@Html.DisplayFor(modelItem => item.CourseCode)</td>
+                           
+                            <td><input type="button" value="Delete" /></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+

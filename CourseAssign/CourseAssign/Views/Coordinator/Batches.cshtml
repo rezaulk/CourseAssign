@@ -1,0 +1,46 @@
+﻿@model CourseAssign.Models.Coordinator.BatchesViewModel
+@{
+    ViewBag.Title = "Batches";
+}
+
+<h2>Batches</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <button data-toggle="modal" data-target="#CreateNewTeacher" class="btn btn-success">Create New Teacher</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Session</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    @foreach (var item in Model.Batches)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Bid)
+                            </td>
+                            <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Session)</td>
+                           
+                            <td><input type="button" value="Delete" /></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
